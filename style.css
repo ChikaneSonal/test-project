@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-text-color: black;
+    --secondary-text-color: blue;
+    --accent-text-color: red;
+
+
+
+}
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    font-family: 'times new roman';
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1rem;
+}
+ul{
+    list-style: none;
+}
+p{
+
+    font-family:'times new roman';
+    top: 0;
+    left: 600px;
+
+    /*line-height: 1.8rem;*/
+}
+.flex{
+    display: flex;
+    align-items:center
+}
+.hover-link{
+    color:white;
+    background-color: rgb(0, 162, 255);
+}
+a{
+    text-decoration: non;
+    display: inline-block;
+}
+.topbanner{
+    font-size: x-small;
+    color: black;
+    
+
+}
+.main-nav{
+    margin-top: 1px;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: rgb(0, 162, 255);
+    height: 50px;
+    display: flex;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    color: aliceblue;
+    width: 2000px;
+}
+.main-nav ul {
+    display: flex;
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Make the ul take full width */
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: center; /* Vertically center items */
+}
+.main-nav li {
+    margin-right: 20px; /* Space between navigation items */
+}
+
+.main-nav li.search {
+    margin-right: 0; /* Remove right margin for the search bar */
+    margin-left: auto; /* Pushes the search bar to the far right */
+}
+
+.main-nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Example text color */
+    font-size: 16px; /* Example font size */
+}
+
+.main-nav a:hover {
+    color: #007BFF; /* Example hover color */
+}
+
+.search form {
+    display: flex;
+    background-color: blue;
+    color:aliceblue;
+}
+
+.search input[type="text"] {
+    padding: 5px 10px; /* Example padding */
+    font-size: 16px; /* Example font size */
+    border: 1px solid #ccc; /* Example border */
+    border-radius: 4px; /* Example border radius */
+}
+
+.nav-link ul{
+    justify-content: end;
+    gap: 40px;
+}
+.nav link{
+    flex-basis: 730px;
+
+}
+.nav1{
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: blue;
+    color: aliceblue;
+    height: 300px;
+    text-align:justify;
+    padding-left: 20px;
+}
+.positioned-image {
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+}
+.text{
+    top: 100px;
+    left: 20px;
+    font-size: 20px;
+    
+}
+.text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    left: 20px;
+    padding-left: 50px;
+}
+
+.text p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    left: 20px;
+    padding-left: 50px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 50px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    color: white; /* Button text color */
+    background-color: #007BFF; /* Button background color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    /*cursor: pointer; Pointer cursor on hover */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    margin-top: 20px; /* Space above the button */
+    z-index: 10;
+}
+.nav2 {
+    margin-top: 00px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    color: black;
+    height: 20px;
+    text-align: justify;
+    padding-left: 20px;
+    padding: 10px;
+    border: 1px solid black; 
+}
+
+.nav2 .hover-links {
+    color: black; /* Set link color to black */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.nav2 ul {
+    display: flex;
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Make the ul take full width */
+    justify-content: space-around; /* Distribute space evenly */
+    align-items: center; /* Vertically center items */
+    padding-right: 0;
+}
+.hero p{
+    margin: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    left: 20px;
+    padding-left: 50px;
+
+}
+.hero h2{
+    top: 100px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    left: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+
+
+
+.img1 {
+    position: absolute;
+    top: 395px; /* Adjust the vertical position */
+    right: 10px; /* Adjust the horizontal position */
+    height: 300px; /* Adjust the height as needed */
+    width: 400px; /* Adjust the width as needed */
+    z-index: 1; /* Ensure it stays behind the content */
+    /* Optional: Adjust the opacity for transparency */
+}
+.dotted-line {
+    border:2px  #007BFF; /* Remove default border */
+    border-top: 3px dotted #007BFF; /* Define dotted line style */
+    margin: 100px 0;
+    color: #007BFF; /* Add margin for spacing */
+
+
+}
+
+
+
+.info2 h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: -80px;
+    left: 20px;
+    padding-left: 50px;
+    
+}
+.info2 p{
+    margin: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    left: 20px;
+    padding-left: 50px;
+}
+.info2 ul{
+    list-style-type: circle;
+    margin: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    left: 20px;
+    padding-left: 70px;
+    
+} 
+.form {
+    border: 2px solid #d3c7c7e8; /* Add border around the form */
+    padding: 20px; /* Add padding inside the border */
+    width: 300px;
+    margin-top: -400px; /* Set the width of the container */
+    margin-left: auto; /* Shift the form to the right */
+    margin-right: 10px; 
+
+}
+.en {
+    display: inline-block;
+    padding: 10px 50px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    color: white; /* Button text color */
+    background-color: #007BFF; /* Button background color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    /*cursor: pointer; Pointer cursor on hover */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    margin-top: 20px; /* Space above the button */
+    z-index: 10;
+
+}
+.dotted-line1 {
+    border:2px  #007BFF; /* Remove default border */
+    border-top: 3px dotted #007BFF; /* Define dotted line style */
+    margin: 100px 0;
+    color: #007BFF; /* Add margin for spacing */
+    width: 900px;
+    padding-left: 10px;
+
+
+}
+.info3 h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: -100px;
+    left: 20px;
+    padding-left: 50px;
+    
+}
+.info3 p{
+    margin: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    left: 20px;
+    padding-left: 50px;
+}
+.info3 ul{
+    list-style-type: circle;
+    margin: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    left: 20px;
+    padding-left: 70px;
+    
+}
+.dotted-line2 {
+    border:2px  #007BFF; /* Remove default border */
+    border-top: 3px dotted #007BFF; /* Define dotted line style */
+    margin: 100px 0;
+    color: #007BFF; /* Add margin for spacing */
+   
+    padding-left: 10px;
+} 
+.info4 h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: -70px;
+    left: 20px;
+    padding-left: 50px;
+    
+}
+.info4 p{
+    margin: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    left: 20px;
+    padding-left: 50px;
+}
+.info4 ul{
+    list-style-type: circle;
+    margin: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    left: 20px;
+    padding-left: 70px;
+    
+}
+.dotted-line3 {
+    border:2px  #007BFF; /* Remove default border */
+    border-top: 3px dotted #007BFF; /* Define dotted line style */
+    margin: 100px 0;
+    color: #007BFF; /* Add margin for spacing */
+    align-items: center;
+    padding-left: 10px;
+} 
+.info5 h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: -70px;
+    left: 20px;
+    padding-left: 50px;
+    
+}
+.info5 p{
+    margin: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    left: 20px;
+    padding-left: 50px;
+}
+.info5 ul{
+    list-style-type: circle;
+    margin: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    left: 20px;
+    padding-left: 70px;
+    
+}
+.dotted-line4 {
+    border:2px  #007BFF; /* Remove default border */
+    border-top: 3px dotted #007BFF; /* Define dotted line style */
+    margin: 100px 0;
+    color: #007BFF; /* Add margin for spacing */
+    align-items: center;
+    padding-left: 10px;
+} 
+.info6 h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: -70px;
+    left: 20px;
+    padding-left: 50px;
+    
+}
+.info6 p{
+    margin: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    left: 20px;
+    padding-left: 50px;
+}
+.info6 ul{
+    list-style-type: circle;
+    margin: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    left: 20px;
+    padding-left: 70px;
+    
+}
+.dotted-line5 {
+    border:2px  #007BFF; /* Remove default border */
+    border-top: 3px dotted #007BFF; /* Define dotted line style */
+    margin: 100px 0;
+    color: #007BFF; /* Add margin for spacing */
+    align-items: center;
+    padding-left: 10px;
+} 
+.tf h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: -70px;
+    left: 20px;
+    padding-left: 50px;
+
+}
+.tf dotted-line6 {
+    border:2px  ; /* Remove default border */
+    border-top: 1px solid #a3aa9ff1; /* Define dotted line style */
+    margin: 100px 0;
+    
+    align-items: center;
+    padding-left: 10px;
+
+}
+.tf p {
+    margin: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    left: 20px;
+    padding-left: 50px;
+}
+.tf dotted-line7 {
+    border:2px  #007BFF; /* Remove default border */
+    border-top: 1px solid #007BFF; /* Define dotted line style */
+    margin: 100px 0;
+    color: #007BFF; 
+    align-items: center;
+    padding-left: 10px;
+
+}
+.vid h2 {
+
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: -70px;
+    left: 20px;
+    padding-left: 50px;
+}
+.section {
+    margin:0;
+    padding:0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.silder {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.slide {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slide input {
+    display: none;
+
+}
+.st {
+    width: 20%;
+    transition: 2s;
+}
+.st img{
+    width: 300px;
+    height: 400px;
+}
+.nav m{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+
+}
+.m-btn{
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.m-btn:not(:last-child){
+    margin-right: 30px;
+}
+.m-btn:hover{
+    background-color: antiquewhite;
+}
+#radio1:checked ~.first{
+    margin-left: 0;
+}
+#radio2:checked ~.first{
+    margin-left: -20%;
+}
+.nav-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+
+}
+.nav-auto div{
+    border: 2px solid;
+    padding:5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+
+
+
+
+
+
